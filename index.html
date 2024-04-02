@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>robots.txt // Patrick Carmichael</title>
+    <title>carmichaelpatrick/ads.txt</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <style>
         body {
-            font-family: 'Roboto Mono', monospace;
+            font-family: 'Courier New', Courier, monospace;
             background-color: #f0f0f0;
             margin: 0;
             padding: 20px;
@@ -16,26 +16,38 @@
             background-color: #fff;
             padding: 20px;
             border: 1px solid #ddd;
-            border-left: 4px solid #000000;
+            border-left: 4px solid #007bff;
             overflow: auto;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <pre>
-User-agent: *
-Disallow: /top-secret/
-Allow: /resume.pdf
+# ADS.TXT for Patrick Carmichael
+# Version: 1.4, Update: 2024-04-01, Email: pcarm92@gmail.com
 
-# Hi there, I'm Patrick. I am a data nerd entrenched in all things programmatic advertising, data analysis, and data visualization.
-# If you're a human, feel free to click the links below to download my resume or connect with me on the various platforms we all know and love.
-# If you're a robot, please adhere to the rules above–unless you are open to discussing job opportunities, that is.
+linkedin.com, DIRECT, <a href="https://go.carmichaelpatrick.com/linkedin" target="_blank">profileID_8245</a>, PatrickCarmichael
+cal.com, DIRECT, <a href="https://go.carmichaelpatrick.com/meet" target="_blank">meetingID_6794</a>, Schedule
+resume.pdf, DIRECT, <a href="https://go.carmichaelpatrick.com/resume" target="_blank">resumeID_4382</a>, Download
 
-<a href="https://go.carmichaelpatrick.com/resume">Resume</a>
-<a href="https://go.carmichaelpatrick.com/linkedin">LinkedIn</a>
-<a href="https://go.carmichaelpatrick.com/meet">Schedule</a>
-<a href="https://go.carmichaelpatrick.com/mail">Email</a>
+# Professional Skills
+skill, SQL/Python/Excel, DIRECT, skillID_3214
+skill, GoogleAdManager/FreeWheel/Salesforce, DIRECT, skillID_8573
 
+# Experience
+Bloomberg, DIRECT, role_PricingInventory, years2023, pubID_b123vz
+Google, DIRECT, role_RevenueLead, years2022-2023, pubID_g456xy
+Paramount, DIRECT, role_DigitalPlatforms, years2018-2022, pubID_p789qw
+
+# Education
+UMassAmherst, DIRECT, degree_BBA_OpsInfoMgmt, gradYear_2018, eduID_uma908
     </pre>
 </body>
 </html>
